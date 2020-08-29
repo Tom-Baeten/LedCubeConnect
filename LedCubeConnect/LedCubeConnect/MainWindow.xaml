@@ -19,8 +19,22 @@
                 <Rectangle Fill="Black" HorizontalAlignment="Left" Height="1" Margin="666,31,0,0" Stroke="Black" VerticalAlignment="Top" Width="377"/>
             </Grid>
         </GroupBox>
-        
-
+        <Button HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="10,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="10,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="10,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="120,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="120,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="120,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="120,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="230,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="230,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="230,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="230,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="336,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="336,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="336,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="336,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
 
     </Grid>
 </Window>
