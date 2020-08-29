@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LedCubeConnect"
         mc:Ignorable="d"
-        Title="Led Cube Connect" Height="709.914" Width="1233.19" Background="#FFA2A2A2" FontSize="16" ResizeMode="NoResize" Cursor="Arrow">
-    <Grid Margin="0,0,2,1">
+        Title="Led Cube Connect" Height="655.604" Width="1233.19" Background="#FFA2A2A2" FontSize="16" ResizeMode="NoResize" Cursor="Arrow">
+    <Grid Margin="0,0,2,3">
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="173" Margin="520,362,0,0" VerticalAlignment="Top" Width="274"/>
+
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="88" Margin="520,232,0,0" VerticalAlignment="Top" Width="274"/>
+
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="88" Margin="520,110,0,0" VerticalAlignment="Top" Width="274"/>
+
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="425" Margin="10,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="422"/>
+
         <GroupBox Header="CSV SETTINGS" HorizontalAlignment="Left" Height="84" Margin="10,10,0,0" VerticalAlignment="Top" Width="1205">
             <Grid HorizontalAlignment="Left" Height="43" Margin="10,10,-2,0" VerticalAlignment="Top" Width="1185">
                 <TextBox HorizontalAlignment="Left" Height="30" Margin="99,4,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="190" FontSize="18"/>
@@ -19,22 +27,36 @@
                 <Rectangle Fill="Black" HorizontalAlignment="Left" Height="1" Margin="666,31,0,0" Stroke="Black" VerticalAlignment="Top" Width="377"/>
             </Grid>
         </GroupBox>
-        <Button HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="10,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="10,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="10,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="120,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="120,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="120,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="120,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="230,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="230,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="230,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="230,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="336,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="336,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="336,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
-        <Button HorizontalAlignment="Left" Margin="336,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="23,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="23,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="23,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="23,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="133,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="133,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="133,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="133,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="243,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="243,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="243,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="243,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="349,128,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="349,236,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="349,341,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <Button HorizontalAlignment="Left" Margin="349,448,0,0" VerticalAlignment="Top" Width="70" Height="70"/>
+        <ComboBox HorizontalAlignment="Left" Margin="541,148,0,0" VerticalAlignment="Top" Width="232" FontSize="18" Height="34"/>
+        <Label Content="Time: " HorizontalAlignment="Left" Margin="541,236,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="541,270,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="185" FontSize="18" Background="#FFEAEAEA" BorderBrush="Black"/>
+        <Label Content="Sec" HorizontalAlignment="Left" Margin="736,266,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="541,380,0,0" VerticalAlignment="Top" Width="107" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="541,461,0,0" VerticalAlignment="Top" Width="107" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="666,380,0,0" VerticalAlignment="Top" Width="107" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="666,461,0,0" VerticalAlignment="Top" Width="107" Height="57"/>
+        <Label Content="Layer: " HorizontalAlignment="Left" Margin="541,114,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <ListBox HorizontalAlignment="Left" Height="397" Margin="885,138,0,0" VerticalAlignment="Top" Width="286"/>
+        <Label Content="Move List:" HorizontalAlignment="Left" Margin="885,104,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Connect cube by IP: " HorizontalAlignment="Left" Margin="349,574,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="537,578,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="212" FontSize="18" Background="#FFEAEAEA" BorderBrush="Black"/>
+        <Button Content="CONNECT" HorizontalAlignment="Left" Margin="764,577,0,0" VerticalAlignment="Top" Width="129" Height="31" FontSize="18"/>
 
     </Grid>
 </Window>
