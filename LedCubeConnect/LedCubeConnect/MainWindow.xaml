@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LedCubeConnect"
         mc:Ignorable="d"
-        Title="MainWindow" Height="709.914" Width="1233.19">
+        Title="Led Cube Connect" Height="709.914" Width="1233.19" Background="#FFA2A2A2" FontSize="16" ResizeMode="NoResize" Cursor="Arrow">
     <Grid Margin="0,0,2,1">
+        <GroupBox Header="CSV SETTINGS" HorizontalAlignment="Left" Height="84" Margin="10,10,0,0" VerticalAlignment="Top" Width="1205">
+            <Grid HorizontalAlignment="Left" Height="43" Margin="10,10,-2,0" VerticalAlignment="Top" Width="1185">
+                <TextBox HorizontalAlignment="Left" Height="30" Margin="99,4,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="190" FontSize="18"/>
+                <Label Content="CSV Title:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.196,0.125" FontSize="18"/>
+                <Label Content="Location: " HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.196,0.125" FontSize="18" Margin="583,2,0,0"/>
+                <Label Content="// No path or file selected" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.196,0.125" FontSize="18" Margin="670,2,0,0" Width="374"/>
+                <Button Content="READ CSV" HorizontalAlignment="Left" Margin="311,3,0,0" VerticalAlignment="Top" Width="129" Height="31" FontSize="18"/>
+                <Button Content="WRITE CSV" HorizontalAlignment="Left" Margin="445,4,0,0" VerticalAlignment="Top" Width="129" Height="31" FontSize="18"/>
+                <Button Content="BROWSE" HorizontalAlignment="Left" Margin="1046,4,0,0" VerticalAlignment="Top" Width="129" Height="31" FontSize="18"/>
+                <Rectangle Fill="Black" HorizontalAlignment="Left" Height="1" Margin="666,31,0,0" Stroke="Black" VerticalAlignment="Top" Width="377"/>
+            </Grid>
+        </GroupBox>
+        
+
 
     </Grid>
 </Window>
